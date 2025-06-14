@@ -95,7 +95,7 @@ function slider(data){
         const shopBtn = document.createElement("a")
         shopBtn.innerHTML = `<span>shop now</span>`
         shopBtn.className = "shopbtn"
-      shopBtn.href = "/shop.html"
+      shopBtn.href = "/Ecommerce-web-app/shop.html"
 
         const rightDiv = document.createElement("div")
         rightDiv.className = "slirightdiv"
