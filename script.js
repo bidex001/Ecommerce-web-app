@@ -219,9 +219,7 @@ function homeProFunc(){
         homeProfile.innerHTML =`<i class="fa-regular fa-user"></i>`
         // proDiv.classList.add("prohidden")
         
-        homeProfile.addEventListener("click",()=>{
-            window.location.href = "/signup.html"
-        })
+      
     }
 
     profile.map((item)=>{
