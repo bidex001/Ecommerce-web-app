@@ -257,7 +257,9 @@ homeProfile.addEventListener("click",()=>{
          proDiv.textContent = "";
          proDiv.classList.add("prohidden");
          homeProfile.innerHTML = `<i class="fa-regular fa-user"></i>`
+         window.location.reload()
         })
+        
         proDiv.append(img,name,mail,logOut)
     })
 })

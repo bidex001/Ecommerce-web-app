@@ -66,7 +66,7 @@ function showItem(data) {
     const name = document.createElement("h2");
     name.textContent = item.title;
     const brand = document.createElement("p");
-    brand.textContent = item.brand;
+    brand.textContent = item.brand ? item.brand :"Food";
     const price = document.createElement("span");
     price.textContent = `$${item.price}`;
     const addBtn = document.createElement("button");
@@ -184,7 +184,7 @@ function showcart() {
     price.textContent = `$${item.price}`;
     const totalPrice = document.createElement("span");
     totalPrice.textContent = `$${item.totalPrice.toFixed(2)}`;
-    const delebtn1 = document.createElement("button");
+    const delebtn1 = document.createElement("a");
     delebtn1.innerHTML = `<i class="fa-solid fa-trash"></i>`;
     delebtn1.className = "delete";
     delebtn1.addEventListener("click", () => {
@@ -218,7 +218,7 @@ function deleteFunc(item) {
   showcart();
   if (cart.length < 1) {
     cartGeneral.classList.add("hidden");
-    window.location.href = "/shop.html";
+    window.location.reload()
   }
 }
 
@@ -237,7 +237,7 @@ function showConfirm() {
   continueBtn.textContent = "continue shopping";
   continueBtn.className = "continue";
   continueBtn.addEventListener("click", () => {
-    window.location.href = "/shop.html";
+    window.location.reload()
     cart = [];
     localStorage.setItem("cart", JSON.stringify(cart));
   });

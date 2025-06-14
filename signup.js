@@ -126,11 +126,10 @@ function showsuccessful(){
     para .textContent = `account created successful`
     const icon = document.createElement("span")
     icon.innerHTML = `<i class="fa-solid fa-user-check"></i>`
-    const btn = document.createElement("button")
+    const btn = document.createElement("a")
     btn.textContent = "continue"
-    btn.addEventListener("click",()=>{
-        window.location.href = "/index.html"
-    })
+   btn.href = "/index.html"
+   btn.className = "continuebtn"
     innerDiv.append(para,icon)
     successfulDiv.append(img,name,innerDiv,btn)
    })
