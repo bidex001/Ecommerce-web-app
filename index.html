@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65657c4d2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <button class="navbtn navbtnhidden"><i class="fa-solid fa-bars-staggered"></i></button>
+        <h1>bidex</h1>
+        </div>
+        <nav class="navheader">
+            <button class="homebtn">home</button>
+            <button class="shopbtn">shop</button>
+            <!-- <button>about</button> -->
+            <button class="signbtn">sign up</button>
+        </nav>
+        <div class="second">
+            <div class="homeinput">
+                <input type="text" placeholder="search item">
+                <button><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+            <!-- <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button> -->
+            <div class="home-profile">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navback navhidden">
+          <div class="home-inputhidden">
+                <input type="text" placeholder="search item">
+                <button><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+            <button class="homebtn"
+            onclick="window.location.href = `/index.html`">home</button>
+            <button class="shopbtn">shop</button>
+            <button class="signbtn"
+            onclick="window.location.href = `/signup.html`">sign up</button>
+    </nav>
+
+   
+<!-- 
+     <div class="cartcontainer">
+        
+    </div> -->
+
+    <main>
+         <div class="prodiv prohidden">
+
+    </div>
+
+        <section class="section1">
+            <div class="leftdiv">
+                <h1>categories</h1>
+                <div class="categorydiv">
+
+                </div>
+            </div>
+            <div class="rightdiv">
+                 <div class="slider">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="wrapper">
+                <button class="leftarrow"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="viewport">
+                    <div class="track">
+
+                    </div>
+                </div>
+                <button class="rightarrow"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>  
+              
+             <div class="backup">
+
+            </div> 
+            <button class="shopbtn">shop now</button>
+        </section>
+
+        <section class="section3">
+            <div class="container">
+                <div class="firstdiv">
+                    <h4>categories</h4>
+                    <h1 id="description"></h1>
+                    <button class="shopbtn">shop now</button>
+                </div>
+                <div class="seconddiv">
+                    <img src="" alt="" id="sec3img">
+                </div>
+            </div>
+        </section>
+
+        <section class="section4">
+            <div class="container">
+                <div class="service">
+                    <i class="fa-solid fa-truck"></i>
+                    <h1>fast and delivery</h1>
+                    <p>for orders above $200</p>
+                </div>
+
+                <div class="service">
+                    <i class="fa-solid fa-tty"></i>
+                    <h1>customer service 24/7</h1>
+                    <p>feel free to contact us</p>
+                </div>
+
+                <div class="service">
+                    <i class="fa-solid fa-medal"></i>
+                    <h1>cover with waranty</h1>
+                    <p>we give you a quality one</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <div class="container">
+         <div>
+            <h1>bidex</h1>
+            <p>subscribe</p>
+            <p>bidexwurld@gmail.com</p>
+        </div>
+
+        <div>
+            <h1>subscribe</h1>
+            <p>no 8 awolowo way ikeja lagos</p>
+            <p>bidexwurld@gmail.com</p>
+            <p>+2349131454532</p>
+        </div>
+
+        <div>
+            <h1>account</h1>
+            <p>my profile</p>
+            <p onclick="
+            window.location.href = `/signup.html`">sign up</p>
+            <p onclick="
+             window.location.href = `/shop.html`">cart</p>
+            <p onclick="
+            window.location.href = `/shop.html`">shop</p>
+        </div>
+
+        <div>
+            <h1>contact</h1>
+            <a href="https://www.facebook.com/share/1EypKYoT4G/?mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/bidexbllz/
+             "><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://x.com/adebayo58154136?s=21"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/@crazycomment4?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+       </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="shop.js"></script>
+<script src="signup.js"></script>
+</html>

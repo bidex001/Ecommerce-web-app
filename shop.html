@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65657c4d2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+         <div class="logo">
+        <button class="navbtn navbtnhidden"><i class="fa-solid fa-bars-staggered"></i></button>
+        <h1>bidex</h1>
+        </div>
+        <nav class="navheader">
+            <button class="homebtn">home</button>
+            <button class="shopbtn">shop</button>
+            <button class="signbtn">sign up</button>
+        </nav>
+        <div class="second">
+            <div class="shopinput">
+                <input type="text" placeholder="search item" class="search">
+                <button class="searchbtn"><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+            <button class="cart"><i class="fa-solid fa-cart-shopping"></i><span class="cartcount">0</span></button>
+        </div>
+    </header>
+
+       <nav class="navback navhidden">
+         <div class="inputhidden">
+                <input type="text" placeholder="search item" class="search2">
+                <button class="searchbtn2"><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+            <button class="homebtn"
+            onclick="window.location.href = `/index.html`">home</button>
+            <button class="shopbtn">shop</button>
+            <button class="signbtn"
+            onclick="window.location.href = `/signup.html`">sign up</button>
+    </nav>
+
+    <div class="cart-general hidden">
+        <div class="cartcontainer " >
+
+    </div>
+    </div>
+
+    <div class="blur blurhidden">
+        <div class="confirm-con">
+            <i class="fa-solid fa-check"></i>
+            <p>order placed successful</p>
+            <div class="confirm-item">
+
+            </div>
+        </div>
+    </div>
+
+    <main class="mainshop">
+        <div class="shopcontainer">
+        </div>
+    </main>
+
+     <footer>
+       <div class="container">
+         <div>
+            <h1>bidex</h1>
+            <p>subscribe</p>
+            <p>bidexwurld@gmail.com</p>
+        </div>
+
+        <div>
+            <h1>subscribe</h1>
+            <p>no 8 awolowo way ikeja lagos</p>
+            <p>bidexwurld@gmail.com</p>
+            <p>+2349131454532</p>
+        </div>
+
+   <div>
+            <h1>account</h1>
+            <p>my profile</p>
+            <p onclick="
+            window.location.href = `/signup.html`">sign up</p>
+            <p onclick="
+             window.location.href = `/shop.html`">cart</p>
+            <p onclick="
+            window.location.href = `/shop.html`">shop</p>
+        </div>
+
+         <div>
+            <h1>contact</h1>
+            <a href="https://www.facebook.com/share/1EypKYoT4G/?mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/bidexbllz/
+             "><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://x.com/adebayo58154136?s=21"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/@crazycomment4?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+       </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="shop.js"></script>
+</html>

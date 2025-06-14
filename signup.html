@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65657c4d2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+       <header>
+            <div class="logo">
+        <button class="navbtn navbtnhidden"><i class="fa-solid fa-bars-staggered"></i></button>
+        <h1>bidex</h1>
+        </div>
+        <nav class="navheader">
+            <button class="homebtn3">home</button>
+            <button class="shopbtn">shop</button>
+            <button>about</button>
+            <button>sign up</button>
+        </nav>
+        <div class="second">
+            <div class="homeinput">
+                <input type="text" placeholder="search item">
+                <button><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+        </div>
+    </header>
+
+          <nav class="navback navhidden">
+              <div class="home-inputhidden">
+                <input type="text" placeholder="search item">
+                <button><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+            <button class="homebtn"
+            onclick="window.location.href = `/index.html`">home</button>
+            <button class="shopbtn">shop</button>
+            <button class="signbtn"
+            onclick="window.location.href = `/signup.html`">sign up</button>
+    </nav>
+
+    <div class="sign-main" style="border: none;">
+        <div class="signimg-container">
+           <div> <h1>get 10% of discount of a each of your item</h1>
+            <p>register and shop now</p></div>
+        </div>
+        <div class="sign-container">
+        <div class="sign-img">
+          <button class="profilebtn"><i class="fa-regular fa-user"></i>
+            <input type="file" accept="image/*" hidden id="inputprofile" >
+        </button>
+        </div>
+        <form>
+            <div class="per">
+                <br>
+                <!-- <label >surname</label> -->
+                <div>
+                    <input type="text" placeholder="first name" id="name">
+                <span class="surname-err"></span>
+                </div>
+            </div>
+
+            <div class="per">
+                <br>
+                <!-- <label>last name</label> -->
+                <div>
+                    <input type="text" placeholder="last name" id="name2">
+                <span class="fname-err"></span>
+                </div>
+            </div>
+
+            <div class="per">
+                <br>
+                <!-- <label>e mail</label> -->
+                <div>
+                    <input type="text" placeholder="email address" id="email">
+                <span class="email-err"></span>
+                </div>
+            </div>
+
+            <div class="per">
+                <br>
+                <!-- <label for=""> password</label> -->
+               <div>
+                 <input type="password" minlength="6" id="pass1" placeholder="password">
+                <span class="pass-err"></span>
+               </div>
+            </div>
+
+            <div class="per">
+                <br>
+                <!-- <label for="">confirm password</label> -->
+                <div>
+                    <input type="password" minlength="6" id="pass2" placeholder="confirm password">
+                <span class="conpass-err"></span>
+                </div>
+            </div>
+
+            <button>submit</button>
+        </form>
+    </div>
+    <div class="signblur signhidden">
+        <div class="sucessful">
+            
+        </div>
+    </div>
+    </div>
+    
+
+    
+</body>
+<script src="signup.js"></script>
+<script src="script.js"></script>
+</html>
