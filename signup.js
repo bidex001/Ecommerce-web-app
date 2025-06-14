@@ -12,9 +12,6 @@ const confirmPass = document.querySelector("#pass2")
 const signBlur = document.querySelector(".signblur")
 const signImg = document.querySelector(".signimg-container")
 let proArr = []
-homeBtn3.addEventListener("click",()=>{
-    window.location.href = "/index.html"
-})
 
 shopBtn3.addEventListener("click",()=>{
     console.log("click")
