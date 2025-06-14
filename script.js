@@ -92,11 +92,10 @@ function slider(data){
         const description = document.createElement("p")
         description.textContent = item.description
 
-        const shopBtn = document.createElement("button")
+        const shopBtn = document.createElement("a")
         shopBtn.innerHTML = `<span>shop now</span>`
-        shopBtn.addEventListener("click",()=>{
-            window.location.href = "/shop.html"
-        })
+        shopBtn.className = "shopbtn"
+      shopBtn.href = "/shop.html"
 
         const rightDiv = document.createElement("div")
         rightDiv.className = "slirightdiv"
