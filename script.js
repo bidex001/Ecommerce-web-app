@@ -218,7 +218,6 @@ function homeProFunc(){
     if(!profile){
         homeProfile.innerHTML =`<i class="fa-regular fa-user"></i>`
         // proDiv.classList.add("prohidden")
-        
       
     }
 

@@ -128,7 +128,7 @@ function showsuccessful(){
     icon.innerHTML = `<i class="fa-solid fa-user-check"></i>`
     const btn = document.createElement("a")
     btn.textContent = "continue"
-   btn.href = "/"
+   btn.href = "/Ecommerce-web-app/index.html"
    btn.className = "continuebtn"
     innerDiv.append(para,icon)
     successfulDiv.append(img,name,innerDiv,btn)
