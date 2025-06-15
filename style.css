@@ -76,7 +76,7 @@ header{
 }
 main{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -330,7 +330,7 @@ footer{
         width: 100%;
         justify-content: space-between;
         color: white;
-        padding: 40px 50px;
+        padding: 20px 50px;
         text-decoration: none;
     }
     h1{
@@ -1757,6 +1757,9 @@ justify-content: space-between;
         font-size: 35px;
     }
 }
+.navback{
+    margin-top: 70px;
+}
 }
 
 @media screen and (max-width:422px){
@@ -1879,6 +1882,12 @@ justify-content: space-between;
         }
       }
     }
+      .imgdiv{
+
+         img{
+        height: 200px;
+           }
+        }
     }
 }
 @media screen and (max-width:1050px){
@@ -1895,6 +1904,68 @@ justify-content: space-between;
             max-width: 655px;
         }
     }
+}
+
+@media  screen and (max-width:380px) {
+   header{
+     .navbtn{
+        font-size: 30px;
+     }
+   }
+   .logo{
+    h1{
+        font-size: 30px;
+    }
+   }
+
+   .second{
+    .cart{
+        font-size: 25px;
+    }
+   }
+   .mainshop{
+    margin-top: 30px;
+   }
+   .home-profile{
+    i{
+        font-size: 25px;
+    }
+   }
+   .section1{
+  .rightdiv{
+      .imgdiv{
+
+         img{
+        height: 200px;
+           }
+        }
+  }
+   }
+   main{
+    margin-top: 0;
+   }
+
+   .section2{
+      .backup{
+        .sample-item-div{
+            margin-top: 0px;
+            width: 170px;
+        }
+        }
+   }
+   .section4{
+    .service{
+        i{
+            font-size: 33px;
+        }
+    }
+   }
+
+   .shopcontainer{
+    .shop-item-div{
+        width: 170px;
+    }
+   }
 }
 
  
